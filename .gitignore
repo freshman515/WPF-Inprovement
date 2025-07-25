@@ -1,0 +1,17 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/WpfCarUIDemo/.vs/WpfCarUIDemo/FileContentIndex/2670a05d-393c-48d2-9d77-3c10ba940d9a.vsidx
+/WpfCarUIDemo/.vs/WpfCarUIDemo/FileContentIndex/3a3f0eb9-989c-4df8-af45-f29c2a307b9b.vsidx
+*.vsidx
+/WpfCarUIDemo/.vs/WpfCarUIDemo/FileContentIndex/9cee5d33-67a7-467d-ab45-511032177daa.vsidx
+/WpfCarUIDemo/WpfCarUIDemo/obj/Debug/net8.0-windows/MainWindow.g.i.cs
+/WpfCarUIDemo/WpfCarUIDemo/obj/Debug/net8.0-windows/WpfCarUIDemo.AssemblyInfo.cs
+/WpfCarUIDemo/WpfCarUIDemo/obj/Debug/net8.0-windows/WpfCarUIDemo.AssemblyInfoInputs.cache
+/WpfCarUIDemo/AppearanceCore/obj/Debug/net8.0-windows/AppearanceCore.AssemblyInfo.cs
+/WpfCarUIDemo/AppearanceCore/obj/Debug/net8.0-windows/AppearanceCore.AssemblyInfoInputs.cache
+/WpfCarUIDemo/GuiResource/obj/Debug/net8.0-windows/GuiResource.AssemblyInfoInputs.cache
+/WpfCarUIDemo/GuiResource/obj/Debug/net8.0-windows/GuiResource.AssemblyInfo.cs
+/WpfCarUIDemo/GuiResource/obj/Debug/net8.0-windows/GuiResource.AssemblyInfo.cs
+/WpfCarUIDemo/GuiResource/obj/Debug/net8.0-windows/GuiResource.AssemblyInfoInputs.cache
