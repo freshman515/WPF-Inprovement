@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pragma\\C# WPF\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|solutionrelative:wpfcaruidemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -27,6 +30,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\.gitignore",
+              "RelativeDocumentMoniker": "..\\.gitignore",
+              "ToolTip": "D:\\pragma\\C# WPF\\.gitignore",
+              "RelativeToolTip": "..\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-25T14:56:50.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfCarUIDemo\\MainWindow.xaml",
@@ -38,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfCarUIDemo\\MainWindow.xaml.cs",
@@ -46,8 +62,7 @@
               "RelativeToolTip": "WpfCarUIDemo\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T14:44:22.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T14:44:22.917Z"
             },
             {
               "$type": "Bookmark",
