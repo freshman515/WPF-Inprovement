@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="WPFProject01.Views.RegisterUserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WPFProject01.Views"
+             xmlns:vm="clr-namespace:WPFProject01.ViewModels"
+             d:DataContext="{d:DesignInstance vm:RegisterUserViewModel}"
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:helper="clr-namespace:WPFProject01.Helper"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.2*" />
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="0.7*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Border>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Offset="0.0" Color="Orange" />
+                    <GradientStop Offset="0.5" Color="#C5AB60" />
+                    <GradientStop Offset="1.0" Color="#ffffff" />
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <md:PackIcon Kind="ChartScatterPlot" Width="50" Height="50" VerticalAlignment="Center"
+                         HorizontalAlignment="Center">
+            </md:PackIcon>
+            <TextBlock Text="注册界面" FontSize="40" FontFamily="Microsoft YaHei" VerticalAlignment="Center"></TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Background="White" Width="240">
+            <TextBox Width="240" Style="{StaticResource MaterialDesignTextBox}"
+                     Margin="0,10,0,10" md:HintAssist.Hint="输入账号" Text="{Binding Username}" />
+            <PasswordBox Margin="0,10,0,10" md:HintAssist.Hint="输入密码"
+                         helper:PasswordBoxHelper.Attach="True"
+                         helper:PasswordBoxHelper.Password="{Binding Password,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                         Width="240">
+            </PasswordBox>
+            <PasswordBox Margin="0,10,0,10" md:HintAssist.Hint="再次输入密码"
+                         helper:PasswordBoxHelper.Attach="True"
+                         helper:PasswordBoxHelper.Password="{Binding ConfirmPassword,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                         Width="240">
+                <PasswordBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding LoginCommand}"></KeyBinding>
+                </PasswordBox.InputBindings>
+            </PasswordBox>
+            <TextBox Width="240" Style="{StaticResource MaterialDesignTextBox}"
+                     Margin="0,10,0,10" md:HintAssist.Hint="输入手机号" Text="{Binding Telephone}" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" VerticalAlignment="Center">
+            <Button VerticalAlignment="Center" Width="200"
+                    Content="注册"
+                    Command="{Binding RegisterUserCommand}"
+                    Background="PaleTurquoise"
+                    Foreground="Black"
+                    Style="{StaticResource MaterialDesignRaisedButton}">
+
+            </Button>
+        </StackPanel>
+        <Button Content="返回" Grid.Row="3" Height="30"
+                Width="80" HorizontalAlignment="Left" Margin="10"
+                Command="{Binding ReturnCommand}">
+        </Button>
+
+    </Grid>
+</UserControl>

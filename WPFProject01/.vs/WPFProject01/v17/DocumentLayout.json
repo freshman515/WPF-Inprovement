@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\pragma\\C# WPF\\WPFProject01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\views\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\views\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\styles\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\styles\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\controls\\connectionindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\controls\\connectionindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\views\\aboutview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\views\\aboutview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\views\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\views\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\views\\shellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\views\\shellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\views\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\views\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|d:\\pragma\\c# wpf\\wpfproject01\\wpfproject01\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB07267-B100-4BCF-AAB6-3CB32ABB25AE}|WPFProject01\\WPFProject01.csproj|solutionrelative:wpfproject01\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Generic.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Styles\\Generic.xaml",
+              "RelativeDocumentMoniker": "WPFProject01\\Styles\\Generic.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Styles\\Generic.xaml",
+              "RelativeToolTip": "WPFProject01\\Styles\\Generic.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T01:49:13.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\AboutView.xaml",
+              "RelativeDocumentMoniker": "WPFProject01\\Views\\AboutView.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\AboutView.xaml",
+              "RelativeToolTip": "WPFProject01\\Views\\AboutView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T01:27:07.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\App.xaml",
+              "RelativeDocumentMoniker": "WPFProject01\\App.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\App.xaml",
+              "RelativeToolTip": "WPFProject01\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T12:49:51.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WPFProject01\\AssemblyInfo.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\AssemblyInfo.cs",
+              "RelativeToolTip": "WPFProject01\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:41:42.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WPFProject01\\App.xaml.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\App.xaml.cs",
+              "RelativeToolTip": "WPFProject01\\App.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwEUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:35:18.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "WPFProject01\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "WPFProject01\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwCUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:26:20.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShellView.xaml.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\ShellView.xaml.cs",
+              "RelativeDocumentMoniker": "WPFProject01\\Views\\ShellView.xaml.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\ShellView.xaml.cs",
+              "RelativeToolTip": "WPFProject01\\Views\\ShellView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAawDkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:19:26.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShellView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\ShellView.xaml",
+              "RelativeDocumentMoniker": "WPFProject01\\Views\\ShellView.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\ShellView.xaml",
+              "RelativeToolTip": "WPFProject01\\Views\\ShellView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T07:19:23.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "WPFProject01\\Views\\LoginView.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\LoginView.xaml",
+              "RelativeToolTip": "WPFProject01\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T06:59:13.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShellViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\ViewModels\\ShellViewModel.cs",
+              "RelativeDocumentMoniker": "WPFProject01\\ViewModels\\ShellViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\ViewModels\\ShellViewModel.cs",
+              "RelativeToolTip": "WPFProject01\\ViewModels\\ShellViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:19:12.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConnectionIndicator.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Controls\\ConnectionIndicator.cs",
+              "RelativeDocumentMoniker": "WPFProject01\\Controls\\ConnectionIndicator.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Controls\\ConnectionIndicator.cs",
+              "RelativeToolTip": "WPFProject01\\Controls\\ConnectionIndicator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T01:30:57.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AboutView.xaml.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\AboutView.xaml.cs",
+              "RelativeDocumentMoniker": "WPFProject01\\Views\\AboutView.xaml.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\AboutView.xaml.cs",
+              "RelativeToolTip": "WPFProject01\\Views\\AboutView.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T01:59:05.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\UserView.xaml",
+              "RelativeDocumentMoniker": "WPFProject01\\Views\\UserView.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WPFProject01\\WPFProject01\\Views\\UserView.xaml",
+              "RelativeToolTip": "WPFProject01\\Views\\UserView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T06:59:01.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

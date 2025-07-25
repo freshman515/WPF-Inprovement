@@ -1,0 +1,20 @@
+﻿WPFProject01
+
+
+winexe
+C#
+.cs
+D:\pragma\C# WPF\WPFProject01\WPFProject01\obj\Debug\net8.0-windows\
+WPFProject01
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\pragma\C# WPF\WPFProject01\WPFProject01\App.xaml
+201770931780
+
+78604644811
+262-1059979889
+Controls\UserCard.xaml;Styles\DarkTheme.xaml;Styles\Generic.xaml;Styles\LightTheme.xaml;Styles\ListViewItemStyle.xaml;Styles\MyPackIconStyle.xaml;Styles\ShellButtonStyle.xaml;Styles\TextBlockStyle.xaml;Styles\TreeViewItemStyle.xaml;Views\AboutView.xaml;Views\CustomDialogView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\LogView.xaml;Views\MainView.xaml;Views\RegisterUserView.xaml;Views\SettingsView.xaml;Views\ShellView.xaml;Views\UserOperatorView.xaml;Views\UserView.xaml;
+
+False
+

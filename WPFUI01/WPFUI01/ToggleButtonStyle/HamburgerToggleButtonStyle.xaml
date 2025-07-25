@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="HamburgerToggleButtonStyle" TargetType="Button" >
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+        <Setter Property="Content" Value=""/> <!-- “三条横线”图标 -->
+    </Style>
+</ResourceDictionary>
