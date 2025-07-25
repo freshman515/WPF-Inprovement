@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCarUIDemo"
         Title="MainWindow"
-        Width="800"
-        Height="450"
+        Width="980"
+        Height="650"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
         mc:Ignorable="d">
-    <Grid>
+    <Grid Background="{DynamicResource BackgroundBrush}">
         <Button Content="Hello Car">
         </Button>
     </Grid>

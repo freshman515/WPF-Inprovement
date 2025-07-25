@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:WpfCarUIDemo"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/GuiResource;Component/ThemeColors/LightColor.xaml" />
+                <ResourceDictionary Source="/GuiResource;Component/Fonts/FontGeneric.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -7,4 +7,38 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Fonts\HarmonyOS_Sans_Black.ttf" />
+    <None Remove="Fonts\HarmonyOS_Sans_Bold.ttf" />
+    <None Remove="Fonts\HarmonyOS_Sans_Light.ttf" />
+    <None Remove="Fonts\HarmonyOS_Sans_Medium.ttf" />
+    <None Remove="Fonts\HarmonyOS_Sans_Regular.ttf" />
+    <None Remove="Fonts\HarmonyOS_Sans_Thin.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CustomControls\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\HarmonyOS_Sans_Black.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\HarmonyOS_Sans_Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\HarmonyOS_Sans_Light.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\HarmonyOS_Sans_Medium.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\HarmonyOS_Sans_Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\HarmonyOS_Sans_Thin.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>

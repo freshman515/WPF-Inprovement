@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-1204305769
+2-1249031248
 
-51378736581
+3-952358945
 198-352714763
-Themes\Generic.xaml;
+Fonts\FontGeneric.xaml;ThemeColors\LightColor.xaml;
 
 False
 
