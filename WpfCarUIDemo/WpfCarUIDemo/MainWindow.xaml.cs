@@ -19,6 +19,7 @@ namespace WpfCarUIDemo
         public MainWindow()
         {
             InitializeComponent();
+            int a = 10;
         }
     }
 }
