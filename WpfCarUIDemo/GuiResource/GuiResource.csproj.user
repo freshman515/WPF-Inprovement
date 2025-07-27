@@ -2,7 +2,13 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Page Update="CustomControls\ControlStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Fonts\FontGeneric.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SvgResource.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThemeColors\LightColor.xaml">

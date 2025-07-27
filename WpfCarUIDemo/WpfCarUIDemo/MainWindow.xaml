@@ -4,16 +4,255 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCarUIDemo"
+        xmlns:customControls="clr-namespace:GuiResource.CustomControls;assembly=GuiResource"
         Title="MainWindow"
         Width="980"
         Height="650"
-        AllowsTransparency="True"
-        Background="Transparent"
-        WindowStyle="None"
         WindowStartupLocation="CenterScreen"
+        StateChanged="MainWindow_OnStateChanged"
         mc:Ignorable="d">
-    <Grid Background="{DynamicResource BackgroundBrush}">
-        <Button Content="Hello Car">
-        </Button>
-    </Grid>
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0" GlassFrameThickness="-1" />
+    </WindowChrome.WindowChrome>
+    <Border x:Name="Border">
+        <Grid>
+            <Border x:Name="ContentBorder" Background="{DynamicResource BackgroundBrush}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="78.5" />
+                        <RowDefinition />
+                        <RowDefinition Height="183" />
+                    </Grid.RowDefinitions>
+                    <Border Grid.Row="0" Background="Transparent"
+                            MouseLeftButtonDown="MainWindow_OnMouseLeftButtonDown" />
+                    <!--  Title  -->
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="263" />
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="263" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="26,0,0,0" Orientation="Horizontal">
+                            <Image x:Name="Logo" Width="24">
+                                <Image.Source>
+                                    <DrawingImage Drawing="{StaticResource LogoSvg}" />
+                                </Image.Source>
+                            </Image>
+                            <TextBlock Width="112" Margin="10,0,0,0" VerticalAlignment="Center"
+                                       Text="Power Lite"
+                                       Foreground="{DynamicResource MainTextBrush}"
+                                       FontSize="20"
+                                       FontFamily="{StaticResource HOS_Bold}" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                    Orientation="Horizontal">
+                            <RadioButton Style="{StaticResource TextRadioButton}"
+                                         IsChecked="True" Content="Ex30" />
+                            <RadioButton Margin="10,0"
+                                         Style="{StaticResource TextRadioButton}"
+                                         Content="Ex90" />
+                            <RadioButton Style="{StaticResource TextRadioButton}" Content="Ex40" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2" Margin="0,0,26,0" HorizontalAlignment="Right"
+                                    VerticalAlignment="Center" Orientation="Horizontal">
+                            <customControls:IconButton Width="40"
+                                                       Background="{DynamicResource NormalBrush}"
+                                                       Click="MinimizeButton_Click"
+                                                       Style="{StaticResource IconButtonStyler}"
+                                                       Icon="{DynamicResource MinSvg}" />
+
+                            <Grid Width="40" Margin="10,0">
+                                <customControls:IconButton x:Name="Maximize_Button" Width="40"
+                                                           Background="{DynamicResource NormalBrush}"
+                                                           Visibility="Visible"
+                                                           Style="{StaticResource IconButtonStyler}"
+                                                           Click="MaximizeButton_Click"
+                                                           Icon="{DynamicResource MaxSvg}" />
+                                <customControls:IconButton x:Name="Restore_Button" Width="40"
+                                                           Background="{DynamicResource NormalBrush}"
+                                                           Visibility="Collapsed" Click="RestoreButton_Click"
+                                                           Style="{StaticResource IconButtonStyler}"
+                                                           Icon="{DynamicResource ResotreSvg}" />
+                            </Grid>
+                            <customControls:IconButton x:Name="MiniMize_Button" Width="40" Click="CloseButton_Click"
+                                                       Background="{DynamicResource NormalBrush}"
+                                                       Style="{StaticResource IconButtonStyler}"
+                                                       Icon="{DynamicResource CloseSvg}" />
+                        </StackPanel>
+
+
+
+                    </Grid>
+
+                    <!--  Center Content  -->
+                    <Grid Grid.Row="1">
+                        <Image Margin="154,37" Source="Assets/Images/新世纪福音战士.png" />
+                        <Grid Margin="60,40,26,40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="38" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel>
+                                <TextBlock Style="{StaticResource MainTextBlockStyle}"
+                                           Text="Volvo E30" FontSize="47" />
+                                <TextBlock Style="{StaticResource TextBlockStyle}"
+                                           Text="Fully electfic crossover" FontSize="18" />
+                                <Border Width="100" Height="25" Margin="0,21,0,0"
+                                        HorizontalAlignment="Left"
+                                        Style="{StaticResource BorderStyle}"
+                                        CornerRadius="20">
+                                    <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+                                        <RadioButton Width="25" Content="L" FontSize="18"
+                                                     IsChecked="True"
+                                                     Style="{StaticResource ElipseTextRadioButtonStyle}">
+                                        </RadioButton>
+                                        <RadioButton Width="25" Content="R" FontSize="18"
+                                                     Style="{StaticResource ElipseTextRadioButtonStyle}">
+                                        </RadioButton>
+                                        <RadioButton Width="25" Content="F" FontSize="18"
+                                                     Style="{StaticResource ElipseTextRadioButtonStyle}">
+                                        </RadioButton>
+                                        <RadioButton Width="25" Content="B" FontSize="18"
+                                                     Style="{StaticResource ElipseTextRadioButtonStyle}">
+                                        </RadioButton>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            </StackPanel>
+                        </Grid>
+
+                    </Grid>
+
+                    <!--  Bottom Content  -->
+                    <Grid Margin="26,0" Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="20" />
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="20" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Height="183"
+                                Style="{StaticResource CardBorderStyle}"
+                                CornerRadius="10,10,0,0">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="70" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" Margin="20,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="38" />
+                                    </Grid.ColumnDefinitions>
+                                    <Border Grid.Column="0" Grid.ColumnSpan="2" Height="2"
+                                            Margin="0,0,0,10" VerticalAlignment="Bottom"
+                                            Background="{DynamicResource ChooseBrush}" />
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Margin="0,18,0,0" Text="Theme" FontSize="18"
+                                                   Style="{StaticResource MainTextBlockStyle}" />
+                                        <TextBlock Text="Car Simply Introduction" FontSize="8"
+                                                   Style="{StaticResource TextBlockStyle}" />
+                                    </StackPanel>
+
+                                    <!--  Button  -->
+                                </Grid>
+                                <Grid Grid.Row="1" Margin="18,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition Height="10" />
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="10" />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <RadioButton x:Name="Light_RadioButton" Grid.Row="0" Grid.Column="0"
+                                                 Height="50"
+                                                 Style="{StaticResource TextRadioButton}"
+                                                 Background="{DynamicResource BackgroundBrush}"
+                                                 Content="Light Theme" />
+                                    <RadioButton x:Name="Dark_RadioButton" Grid.Row="2" Grid.Column="0"
+                                                 Height="50"
+                                                 Style="{StaticResource TextRadioButton}"
+                                                 Background="{DynamicResource BackgroundBrush}"
+                                                 Content="Light Theme" />
+                                    <RadioButton x:Name="FreshBlue_RadioButton" Grid.Row="0" Grid.Column="2"
+                                                 Height="50"
+                                                 Style="{StaticResource TextRadioButton}"
+                                                 Background="{DynamicResource BackgroundBrush}"
+                                                 Content="Light Theme" />
+                                    <RadioButton x:Name="HoneyPink_RadioButton" Grid.Row="2" Grid.Column="2"
+                                                 Height="50"
+                                                 Style="{StaticResource TextRadioButton}"
+                                                 Background="{DynamicResource BackgroundBrush}"
+                                                 Content="Light Theme" />
+
+                                </Grid>
+                            </Grid>
+                        </Border>
+                        <Border Grid.Column="2" Height="183"
+                                Style="{StaticResource CardBorderStyle}"
+                                CornerRadius="10,10,0,0">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="70" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" Margin="20,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="38" />
+                                    </Grid.ColumnDefinitions>
+                                    <Border Grid.Column="0" Grid.ColumnSpan="2" Height="2"
+                                            Margin="0,0,0,10" VerticalAlignment="Bottom"
+                                            Background="{DynamicResource ChooseBrush}" />
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Margin="0,18,0,0" Text="Close Mode" FontSize="18"
+                                                   Style="{StaticResource MainTextBlockStyle}" />
+                                        <TextBlock Text="Your Car Date Time Setting" FontSize="8"
+                                                   Style="{StaticResource TextBlockStyle}" />
+                                    </StackPanel>
+
+                                    <!--  Button  -->
+                                </Grid>
+                            </Grid>
+                        </Border>
+                        <Border Grid.Column="4" Height="183"
+                                Style="{StaticResource CardBorderStyle}"
+                                CornerRadius="10,10,0,0">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="70" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" Margin="20,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="38" />
+                                    </Grid.ColumnDefinitions>
+                                    <Border Grid.Column="0" Grid.ColumnSpan="2" Height="2"
+                                            Margin="0,0,0,10" VerticalAlignment="Bottom"
+                                            Background="{DynamicResource ChooseBrush}" />
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Margin="0,18,0,0" Text="Background Type" FontSize="18"
+                                                   Style="{StaticResource MainTextBlockStyle}" />
+                                        <TextBlock Text="Optional Preset Mode" FontSize="8"
+                                                   Style="{StaticResource TextBlockStyle}" />
+                                    </StackPanel>
+
+                                    <!--  Button  -->
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+
+    </Border>
 </Window>

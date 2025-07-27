@@ -8,6 +8,8 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/GuiResource;Component/ThemeColors/LightColor.xaml" />
                 <ResourceDictionary Source="/GuiResource;Component/Fonts/FontGeneric.xaml" />
+                <ResourceDictionary Source="/GuiResource;Component/SvgResource.xaml" />
+                <ResourceDictionary Source="/GuiResource;Component/CustomControls/ControlStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

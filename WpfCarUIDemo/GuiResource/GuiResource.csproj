@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CustomControls\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Fonts\HarmonyOS_Sans_Black.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

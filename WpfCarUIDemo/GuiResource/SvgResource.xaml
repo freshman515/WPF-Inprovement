@@ -1,0 +1,67 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="CloseSvg">
+        <DrawingGroup x:Name="DrawingLayer">
+            <DrawingGroup.ClipGeometry>
+                <RectangleGeometry Rect="0,0,1024,1024" />
+            </DrawingGroup.ClipGeometry>
+            <GeometryDrawing Brush="#FF272536">
+                <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M562.281173,510.800685L857.277837,217.333864C871.227547,203.455785 871.298155,180.966585 857.420077,167.016875 843.506183,153.032372 821.052798,152.996557 807.103088,166.874635L512.034792,460.377272 219.528855,166.982082C205.686592,153.104003 183.161576,153.032372 169.211866,166.910451 155.297972,180.78853 155.263179,203.313546 169.140235,217.263256L461.576587,510.587837 166.721139,803.876604C152.771429,817.754683 152.700821,840.243883 166.578899,854.193593 173.517938,861.168448 182.663226,864.690668 191.808513,864.690668 200.882169,864.690668 209.956848,861.239056 216.895888,854.335833L511.821944,560.975435 806.996664,857.040431C813.935703,864.015286 823.045175,867.502714 832.190463,867.502714 841.299935,867.502714 850.374614,864.015286 857.313653,857.112063 871.227547,843.233984 871.263363,820.744784 857.385284,806.795074L562.281173,510.800685z" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="MaxSvg">
+        <DrawingGroup x:Name="DrawingLayer">
+            <DrawingGroup.ClipGeometry>
+                <RectangleGeometry Rect="0,0,1365,1024" />
+            </DrawingGroup.ClipGeometry>
+            <GeometryDrawing Brush="#FF283F52">
+                <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M1140.982158,0C1171.511117,0,1196.259731,24.748613,1196.259731,55.277574L1196.259731,481.802069C1196.259731,512.331031 1171.511117,537.079644 1140.982158,537.079644 1110.453196,537.079644 1085.704583,512.331031 1085.704583,481.802069L1085.704583,55.277574 1140.982158,110.555148 707.290659,110.555148C676.761697,110.555148 652.013084,85.806535 652.013084,55.277574 652.013084,24.748613 676.761697,0 707.290659,0L1140.982158,0z M223.896216,1024.028434C193.367257,1024.028434,168.618642,999.279821,168.618642,968.75086L168.618642,542.226364C168.618642,511.697403 193.367257,486.94879 223.896216,486.94879 254.425178,486.94879 279.17379,511.697403 279.17379,542.226364L279.17379,968.75086 223.896216,913.473286 657.587715,913.473286C688.116677,913.473286 712.865289,938.221898 712.865289,968.75086 712.865289,999.279821 688.116677,1024.028434 657.587715,1024.028434L223.896216,1024.028434z" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="MinSvg">
+        <DrawingGroup x:Name="DrawingLayer">
+            <DrawingGroup.ClipGeometry>
+                <RectangleGeometry Rect="0,0,1024,1024" />
+            </DrawingGroup.ClipGeometry>
+            <GeometryDrawing Brush="#FF000000">
+                <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M98.23,451.003L927.915,449.011 928.069,513.011 98.384,515.003z" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+
+    <DrawingGroup x:Key="LogoSvg" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <DrawingGroup x:Name="DrawingLayer">
+            <DrawingGroup.ClipGeometry>
+                <RectangleGeometry Rect="0,0,1024,1024" />
+            </DrawingGroup.ClipGeometry>
+            <GeometryDrawing Brush="#FF444444">
+                <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M512,12.64C229.248,12.64 0,241.856 0,524.64 0,750.848 146.72,942.784 350.144,1010.464 375.744,1015.2 385.152,999.36 385.152,985.824 385.152,973.632 384.672,933.28 384.448,890.496 241.984,921.472 211.936,830.08 211.936,830.08 188.64,770.912 155.104,755.168 155.104,755.168 108.64,723.392 158.624,724.032 158.624,724.032 210.016,727.648 237.088,776.8 237.088,776.8 282.752,855.072 356.864,832.448 386.08,819.36 390.656,786.272 403.936,763.68 418.592,750.88 304.864,737.952 185.312,694.016 185.312,497.856 185.312,441.952 205.312,396.288 238.08,360.416 232.768,347.52 215.232,295.456 243.04,224.928 243.04,224.928 286.048,211.168 383.872,277.408 424.704,266.048 468.512,260.384 512.032,260.16 555.52,260.352 599.36,266.048 640.288,277.408 738.016,211.168 780.928,224.928 780.928,224.928 808.8,295.456 791.264,347.52 785.952,360.416 818.784,396.256 838.656,441.952 838.656,497.856 838.656,694.496 718.88,737.792 604.864,750.496 623.232,766.4 639.584,797.536 639.584,845.312 639.584,913.824 638.976,968.96 638.976,985.824 638.976,999.456 648.192,1015.424 674.144,1010.4 877.472,942.624 1024,750.784 1024,524.64 1024,241.856 794.752,12.6399999999999 512,12.6399999999999z" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Key="ResotreSvg" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <DrawingGroup x:Name="DrawingLayer">
+            <DrawingGroup.ClipGeometry>
+                <RectangleGeometry Rect="0,0,1024,1024" />
+            </DrawingGroup.ClipGeometry>
+            <GeometryDrawing Brush="#FF000000">
+                <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M108.8,561.52L108.8,662.91 290.36,662.91 64,889.26 134.74,960 361.1,733.64 361.1,915.2 462.49,915.2 462.49,561.52 108.8,561.52z M889.26,64L662.91,290.36 662.91,108.8 561.52,108.8 561.52,462.48 915.2,462.48 915.2,361.09 733.64,361.09 960,134.74 889.26,64z" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+</ResourceDictionary>
