@@ -3,16 +3,54 @@
   "WorkspaceRootPath": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|solutionrelative:wpfcaruidemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\guiresource\\customcontrols\\magicbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|solutionrelative:guiresource\\customcontrols\\magicbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|solutionrelative:wpfcaruidemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\guiresource\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|solutionrelative:guiresource\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DCDDF2-C601-4555-810F-459DEF908741}|DemoApp1\\DemoApp1.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\demoapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17DCDDF2-C601-4555-810F-459DEF908741}|DemoApp1\\DemoApp1.csproj|solutionrelative:demoapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DCDDF2-C601-4555-810F-459DEF908741}|DemoApp1\\DemoApp1.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\demoapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17DCDDF2-C601-4555-810F-459DEF908741}|DemoApp1\\DemoApp1.csproj|solutionrelative:demoapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DCDDF2-C601-4555-810F-459DEF908741}|DemoApp1\\DemoApp1.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\demoapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17DCDDF2-C601-4555-810F-459DEF908741}|DemoApp1\\DemoApp1.csproj|solutionrelative:demoapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\guiresource\\customcontrols\\controlstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|solutionrelative:guiresource\\customcontrols\\controlstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\views\\testwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|solutionrelative:wpfcaruidemo\\views\\testwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\views\\testwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|solutionrelative:wpfcaruidemo\\views\\testwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|solutionrelative:wpfcaruidemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\guiresource\\themecolors\\lightcolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|solutionrelative:guiresource\\themecolors\\lightcolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|solutionrelative:wpfcaruidemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\utilites\\win32helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +67,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\guiresource\\fonts\\fontgeneric.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|solutionrelative:guiresource\\fonts\\fontgeneric.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\guiresource\\themecolors\\lightcolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9D926FD2-49E3-4EE3-B1E7-1FDFCCF734B2}|GuiResource\\GuiResource.csproj|solutionrelative:guiresource\\themecolors\\lightcolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21D5D5FD-99CF-4360-A961-80FAF625AF10}|WpfCarUIDemo\\WpfCarUIDemo.csproj|d:\\pragma\\c# wpf\\wpfcaruidemo\\wpfcaruidemo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -53,75 +87,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{543d4543-bb45-5b56-8c02-b06ad75836e1}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ControlStyles.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\CustomControls\\ControlStyles.xaml",
-              "RelativeDocumentMoniker": "GuiResource\\CustomControls\\ControlStyles.xaml",
-              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\CustomControls\\ControlStyles.xaml",
-              "RelativeToolTip": "GuiResource\\CustomControls\\ControlStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-26T08:27:56.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SvgResource.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\SvgResource.xaml",
-              "RelativeDocumentMoniker": "GuiResource\\SvgResource.xaml",
-              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\SvgResource.xaml",
-              "RelativeToolTip": "GuiResource\\SvgResource.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-26T08:14:01.864Z",
-              "EditorCaption": ""
+              "Title": "Storyboard.cs",
+              "DocumentMoniker": "C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs",
+              "ToolTip": "C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAAAsCAAAAAAAAAAAxwBoCAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T03:21:34.98Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\App.xaml",
-              "RelativeDocumentMoniker": "WpfCarUIDemo\\App.xaml",
-              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\App.xaml",
-              "RelativeToolTip": "WpfCarUIDemo\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T15:25:05.583Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ViewState": "AgIAAKUBAAAAAAAAAAAxwLUBAAAkAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T01:56:03.637Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\DemoApp1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DemoApp1\\AssemblyInfo.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\DemoApp1\\AssemblyInfo.cs",
+              "RelativeToolTip": "DemoApp1\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T01:47:45.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\DemoApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DemoApp1\\MainWindow.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\DemoApp1\\MainWindow.xaml",
+              "RelativeToolTip": "DemoApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T01:42:31.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\DemoApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DemoApp1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\DemoApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DemoApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T01:42:31.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MagicBar.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\CustomControls\\MagicBar.cs",
+              "RelativeDocumentMoniker": "GuiResource\\CustomControls\\MagicBar.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\CustomControls\\MagicBar.cs",
+              "RelativeToolTip": "GuiResource\\CustomControls\\MagicBar.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T01:39:25.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Generic.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\Themes\\Generic.xaml",
+              "RelativeDocumentMoniker": "GuiResource\\Themes\\Generic.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\Themes\\Generic.xaml",
+              "RelativeToolTip": "GuiResource\\Themes\\Generic.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-09T01:40:54.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "FontGeneric.xaml",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\Fonts\\FontGeneric.xaml",
               "RelativeDocumentMoniker": "GuiResource\\Fonts\\FontGeneric.xaml",
               "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\Fonts\\FontGeneric.xaml",
               "RelativeToolTip": "GuiResource\\Fonts\\FontGeneric.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T15:17:46.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T15:17:46.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "LightColor.xaml",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\ThemeColors\\LightColor.xaml",
               "RelativeDocumentMoniker": "GuiResource\\ThemeColors\\LightColor.xaml",
               "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\ThemeColors\\LightColor.xaml",
               "RelativeToolTip": "GuiResource\\ThemeColors\\LightColor.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T15:12:03.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T15:12:03.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "GuiResource.csproj",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\GuiResource.csproj",
               "RelativeDocumentMoniker": "GuiResource\\GuiResource.csproj",
@@ -133,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\.gitignore",
               "RelativeDocumentMoniker": "..\\.gitignore",
@@ -145,32 +228,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfCarUIDemo\\MainWindow.xaml",
               "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\MainWindow.xaml",
               "RelativeToolTip": "WpfCarUIDemo\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-25T14:44:25.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T14:44:25.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfCarUIDemo\\MainWindow.xaml.cs",
               "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfCarUIDemo\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAIAzwGQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAA2wHEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T14:44:22.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T14:44:22.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "TestWindow.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\Views\\TestWindow.xaml",
+              "RelativeDocumentMoniker": "WpfCarUIDemo\\Views\\TestWindow.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\Views\\TestWindow.xaml",
+              "RelativeToolTip": "WpfCarUIDemo\\Views\\TestWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:50:48.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ControlStyles.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\CustomControls\\ControlStyles.xaml",
+              "RelativeDocumentMoniker": "GuiResource\\CustomControls\\ControlStyles.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\CustomControls\\ControlStyles.xaml",
+              "RelativeToolTip": "GuiResource\\CustomControls\\ControlStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-26T08:27:56.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestWindow.xaml.cs",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\Views\\TestWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfCarUIDemo\\Views\\TestWindow.xaml.cs",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\Views\\TestWindow.xaml.cs",
+              "RelativeToolTip": "WpfCarUIDemo\\Views\\TestWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:51:01.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\App.xaml",
+              "RelativeDocumentMoniker": "WpfCarUIDemo\\App.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\App.xaml",
+              "RelativeToolTip": "WpfCarUIDemo\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T15:25:05.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SvgResource.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\SvgResource.xaml",
+              "RelativeDocumentMoniker": "GuiResource\\SvgResource.xaml",
+              "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\SvgResource.xaml",
+              "RelativeToolTip": "GuiResource\\SvgResource.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-26T08:14:01.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Win32Helper.cs",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\Utilites\\Win32Helper.cs",
               "RelativeDocumentMoniker": "WpfCarUIDemo\\Utilites\\Win32Helper.cs",
@@ -178,12 +315,11 @@
               "RelativeToolTip": "WpfCarUIDemo\\Utilites\\Win32Helper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T07:24:33.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T07:24:33.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "IconButton.cs",
               "DocumentMoniker": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\CustomControls\\IconButton.cs",
               "RelativeDocumentMoniker": "GuiResource\\CustomControls\\IconButton.cs",
@@ -191,8 +327,7 @@
               "RelativeToolTip": "GuiResource\\CustomControls\\IconButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T02:53:29.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T02:53:29.789Z"
             }
           ]
         }

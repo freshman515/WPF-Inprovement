@@ -14,7 +14,7 @@
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="0" GlassFrameThickness="-1" />
     </WindowChrome.WindowChrome>
-    <Border x:Name="Border">
+    <Border x:Name="Border" WindowChrome.IsHitTestVisibleInChrome="True">
         <Grid>
             <Border x:Name="ContentBorder" Background="{DynamicResource BackgroundBrush}">
                 <Grid>
@@ -48,7 +48,7 @@
                         <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"
                                     Orientation="Horizontal">
                             <RadioButton Style="{StaticResource TextRadioButton}"
-                                         IsChecked="True" Content="Ex30" />
+                                         Click="E30RadioButton_Click" IsChecked="True" Content="Ex30" />
                             <RadioButton Margin="10,0"
                                          Style="{StaticResource TextRadioButton}"
                                          Content="Ex90" />

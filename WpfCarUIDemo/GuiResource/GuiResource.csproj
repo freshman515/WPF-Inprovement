@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.113" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Fonts\HarmonyOS_Sans_Black.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

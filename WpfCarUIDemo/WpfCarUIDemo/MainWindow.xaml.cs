@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfCarUIDemo.Views;
 
 namespace WpfCarUIDemo {
 	/// <summary>
@@ -111,6 +112,10 @@ namespace WpfCarUIDemo {
 
 		private void MinimizeButton_Click(object sender, RoutedEventArgs e) {
 			this.WindowState = WindowState.Minimized;
+		}
+
+		private void E30RadioButton_Click(object sender, RoutedEventArgs e) {
+			new TestWindow().ShowDialog();
 		}
 	}
 }

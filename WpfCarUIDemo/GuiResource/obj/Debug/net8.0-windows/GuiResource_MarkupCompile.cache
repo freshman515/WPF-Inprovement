@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-41922440013
+52126745782
 
-21163257128
-198-352714763
-CustomControls\ControlStyles.xaml;Fonts\FontGeneric.xaml;SvgResource.xaml;ThemeColors\LightColor.xaml;
+4681970129
+210850265271
+CustomControls\ControlStyles.xaml;Fonts\FontGeneric.xaml;SvgResource.xaml;ThemeColors\LightColor.xaml;Themes\Generic.xaml;
 
 False
 
