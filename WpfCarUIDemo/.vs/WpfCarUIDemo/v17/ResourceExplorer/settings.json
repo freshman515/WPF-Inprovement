@@ -1,1 +1,16 @@
-{"ShowEmptyProjects":false,"CustomColumnOrderings":{},"ShowValidationErrors":true,"SelectedResourceGroupsByProject":{"D:\\pragma\\C# WPF\\WpfCarUIDemo\\AppearanceCore\\AppearanceCore.csproj":[],"D:\\pragma\\C# WPF\\WpfCarUIDemo\\GuiResource\\GuiResource.csproj":[],"D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\WpfCarUIDemo.csproj":[],"D:\\pragma\\C# WPF\\WpfCarUIDemo\\DemoApp1\\DemoApp1.csproj":[]},"VisibleColumnKeys":["name","neutral-value"]}
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [],
+  "ExpandedProjects": [],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [
+    "name",
+    "file-path",
+    "file-name",
+    "type"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "neutral-value"
+  ]
+}

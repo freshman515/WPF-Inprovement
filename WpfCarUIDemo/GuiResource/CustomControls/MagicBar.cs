@@ -49,8 +49,8 @@ namespace GuiResource.CustomControls
     /// </summary>
     public class MagicBar : ListBox
     {
-       private ValueItem vi ;
-       private Storyboard sb ;
+       //private ValueItem vi ;
+       //private Storyboard sb ;
         static MagicBar()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(MagicBar), new FrameworkPropertyMetadata(typeof(MagicBar)));
@@ -61,23 +61,46 @@ namespace GuiResource.CustomControls
             Grid circle = (Grid)GetTemplateChild("PART_Circle");
             InitStoryBoard(circle);
         }
-
+        private DoubleAnimation _moveAnimation;
+        private Storyboard sb;
         private void InitStoryBoard(Grid circle) {
-            vi = new ValueItem();
             sb = new Storyboard();
-            vi.Mode = EasingFunctionBaseMode.QuinticEaseInOut;
-            vi.Property = new PropertyPath(Canvas.LeftProperty);
-            vi.Duration = new Duration(new TimeSpan(0, 0, 0, 0, 500));
-            Storyboard.SetTarget(vi,circle);
-            Storyboard.SetTargetProperty(vi,vi.Property);
-            sb.Children.Add(vi);
-        }
 
+            _moveAnimation = new DoubleAnimation {
+                Duration = TimeSpan.FromMilliseconds(500),
+                EasingFunction = new CubicEase { EasingMode = EasingMode.EaseInOut }
+            };
+
+            Storyboard.SetTarget(_moveAnimation, circle);
+            Storyboard.SetTargetProperty(_moveAnimation, new PropertyPath("(Canvas.Left)"));
+
+            sb.Children.Add(_moveAnimation);
+        }
         protected override void OnSelectionChanged(SelectionChangedEventArgs e) {
             base.OnSelectionChanged(e);
-            vi.To  = SelectedIndex*80;
-            sb.Begin();
 
+            // 设置目标值
+            _moveAnimation.To = SelectedIndex * 80;
+
+            // 重新开始动画
+            sb.Begin();
         }
+        //private void InitStoryBoard(Grid circle) {
+        //    vi = new ValueItem();
+        //    sb = new Storyboard();
+        //    vi.Mode = EasingFunctionBaseMode.QuinticEaseInOut;
+        //    vi.Property = new PropertyPath(Canvas.LeftProperty);
+        //    vi.Duration = new Duration(new TimeSpan(0, 0, 0, 0, 500));
+        //    Storyboard.SetTarget(vi,circle);
+        //    Storyboard.SetTargetProperty(vi,vi.Property);
+        //    sb.Children.Add(vi);
+        //}
+
+        //protected override void OnSelectionChanged(SelectionChangedEventArgs e) {
+        //    base.OnSelectionChanged(e);
+        //    vi.To  = SelectedIndex*80;
+        //    sb.Begin();
+
+        //}
     }
 }

@@ -15,11 +15,11 @@
         mc:Ignorable="d">
     <Grid>
         <customControls1:MagicBar x:Name="bar">
-            <ListBoxItem Content="Microsoft" Tag="{x:Static james:IconType.Microsoft}" />
-            <ListBoxItem Content="Apple" Tag="{x:Static james:IconType.Apple}" />
-            <ListBoxItem Content="Google" Tag="{x:Static james:IconType.Google}" />
-            <ListBoxItem Content="Facebook" Tag="{x:Static james:IconType.Facebook}" />
-            <ListBoxItem Content="Instagram" Tag="{x:Static james:IconType.Instagram}" />
+            <ListBoxItem Tag="&#xE80F;" Content="主页"/>
+            <ListBoxItem Tag="&#xE721;" Content="搜索"/>
+            <ListBoxItem Tag="&#xE8BD;" Content="消息"/>
+            <ListBoxItem Tag="&#xE1CE;" Content="收藏"/>
+            <ListBoxItem Tag="&#xE713;" Content="设置"/>
         </customControls1:MagicBar>
         <!--<Grid
             Width="100"

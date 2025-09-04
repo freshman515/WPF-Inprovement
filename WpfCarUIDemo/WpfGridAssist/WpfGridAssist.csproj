@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0-windows;net48</TargetFrameworks>
+
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+
+
+    <!-- 打包配置 -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Wpf.GridAssist</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Mf</Authors>
+    <Company>你的公司(可选)</Company>
+    <Product>WPF Grid Assist</Product>
+    <Description>WPF Grid 布局辅助：AutoRows/AutoCols/RowSpecs/ColumnSpecs + ContentRow/Column + 自动跳过分隔列/行</Description>
+    <PackageTags>wpf grid layout autogrid</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!-- 或者用 PackageLicenseFile -->
+  </PropertyGroup>
+
+</Project>

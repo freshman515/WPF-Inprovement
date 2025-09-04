@@ -17,22 +17,11 @@
     <Border x:Name="Border" WindowChrome.IsHitTestVisibleInChrome="True">
         <Grid>
             <Border x:Name="ContentBorder" Background="{DynamicResource BackgroundBrush}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="78.5" />
-                        <RowDefinition />
-                        <RowDefinition Height="183" />
-                    </Grid.RowDefinitions>
-                    <Border Grid.Row="0" Background="Transparent"
-                            MouseLeftButtonDown="MainWindow_OnMouseLeftButtonDown" />
+                <Grid local:GridAssist.AutoRowColumn="3,1" local:GridAssist.RowSpecs="78.5,*,183">
                     <!--  Title  -->
-                    <Grid Grid.Row="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="263" />
-                            <ColumnDefinition />
-                            <ColumnDefinition Width="263" />
-                        </Grid.ColumnDefinitions>
-                        <StackPanel Grid.Column="0" Margin="26,0,0,0" Orientation="Horizontal">
+                    <Grid local:GridAssist.AutoRowColumn="_,3" local:GridAssist.ColumnSpecs="263,*,263"
+                          MouseLeftButtonDown="MainWindow_OnMouseLeftButtonDown">
+                        <StackPanel Margin="26,0,0,0" Orientation="Horizontal">
                             <Image x:Name="Logo" Width="24">
                                 <Image.Source>
                                     <DrawingImage Drawing="{StaticResource LogoSvg}" />
@@ -45,8 +34,7 @@
                                        FontFamily="{StaticResource HOS_Bold}" />
                         </StackPanel>
 
-                        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"
-                                    Orientation="Horizontal">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
                             <RadioButton Style="{StaticResource TextRadioButton}"
                                          Click="E30RadioButton_Click" IsChecked="True" Content="Ex30" />
                             <RadioButton Margin="10,0"
@@ -55,8 +43,8 @@
                             <RadioButton Style="{StaticResource TextRadioButton}" Content="Ex40" />
                         </StackPanel>
 
-                        <StackPanel Grid.Column="2" Margin="0,0,26,0" HorizontalAlignment="Right"
-                                    VerticalAlignment="Center" Orientation="Horizontal">
+                        <StackPanel Margin="0,0,26,0" HorizontalAlignment="Right" VerticalAlignment="Center"
+                                    Orientation="Horizontal">
                             <customControls:IconButton Width="40"
                                                        Background="{DynamicResource NormalBrush}"
                                                        Click="MinimizeButton_Click"
@@ -82,18 +70,13 @@
                                                        Icon="{DynamicResource CloseSvg}" />
                         </StackPanel>
 
-
-
                     </Grid>
 
                     <!--  Center Content  -->
-                    <Grid Grid.Row="1">
+                    <Grid>
                         <Image Margin="154,37" Source="Assets/Images/新世纪福音战士.png" />
-                        <Grid Margin="60,40,26,40">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition />
-                                <ColumnDefinition Width="38" />
-                            </Grid.ColumnDefinitions>
+                        <Grid Margin="60,40,26,40" local:GridAssist.AutoRowColumn="_,2"
+                              local:GridAssist.ColumnSpecs="*,38">
                             <StackPanel>
                                 <TextBlock Style="{StaticResource MainTextBlockStyle}"
                                            Text="Volvo E30" FontSize="47" />
@@ -120,22 +103,15 @@
                                     </StackPanel>
                                 </Border>
                             </StackPanel>
-                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                            </StackPanel>
+                            <StackPanel VerticalAlignment="Center" />
                         </Grid>
 
                     </Grid>
 
                     <!--  Bottom Content  -->
-                    <Grid Margin="26,0" Row="2">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition Width="20" />
-                            <ColumnDefinition />
-                            <ColumnDefinition Width="20" />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-                        <Border Grid.Column="0" Height="183"
+                    <Grid Margin="26,0" local:GridAssist.AutoRowColumn="_,5"
+                          local:GridAssist.ColumnSpecs="*,20,*,20,*">
+                        <Border Height="183" local:GridAssist.ContentColumn="0"
                                 Style="{StaticResource CardBorderStyle}"
                                 CornerRadius="10,10,0,0">
                             <Grid>
@@ -195,7 +171,7 @@
                                 </Grid>
                             </Grid>
                         </Border>
-                        <Border Grid.Column="2" Height="183"
+                        <Border Height="183" local:GridAssist.ContentColumn="2"
                                 Style="{StaticResource CardBorderStyle}"
                                 CornerRadius="10,10,0,0">
                             <Grid>
@@ -222,7 +198,7 @@
                                 </Grid>
                             </Grid>
                         </Border>
-                        <Border Grid.Column="4" Height="183"
+                        <Border Height="183" local:GridAssist.ContentColumn="4"
                                 Style="{StaticResource CardBorderStyle}"
                                 CornerRadius="10,10,0,0">
                             <Grid>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="MessengerDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MessengerDemo"
+        Title="MainWindow"
+        Width="800"
+        Height="450"
+        d:DataContext="{d:DesignInstance local:MainViewModel}"
+        mc:Ignorable="d">
+    <Grid>
+
+        <StackPanel Orientation="Horizontal">
+            <StackPanel.Resources>
+                <Style TargetType="Button" BasedOn="">
+                </Style>
+            </StackPanel.Resources>
+            <Button Height="30" Content="Open New Window"
+                    Command="{Binding OpenNewWindowCommand}" />
+            <Button Height="30" Content="Send Message"
+                    Command="{Binding SendMessageCommand}">
+            </Button>
+            <TextBox Width="200" Height="30"
+                     Text="{Binding Message, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+    </Grid>
+</Window>

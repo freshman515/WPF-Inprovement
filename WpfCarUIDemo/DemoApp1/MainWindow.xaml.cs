@@ -20,7 +20,7 @@ namespace DemoApp1 {
 		}
 
 		private void OnLoaded(object sender, RoutedEventArgs e) {
-			bar.SelectedIndex = 0;
+			//bar.SelectedIndex = 0;
 		}
 	}
 }
