@@ -15,7 +15,9 @@ namespace NavigationDemo1
     /// </summary>
     public partial class App : Application
     {
-        private IServiceProvider _sp = null!;
+        public new static App Current => (App)Application.Current;
+
+        public IServiceProvider Services { get; private set; } = null!;
         protected override void OnStartup(StartupEventArgs e) {
             base.OnStartup(e);
 
@@ -23,6 +25,7 @@ namespace NavigationDemo1
             services.AddViewModels();
             services.AddMiniNavigation<MainViewModel>();
             var sp = services.BuildServiceProvider();
+            Services = sp;
             var vm = sp.GetRequiredService<MainViewModel>();
             var nav = sp.GetRequiredService<INavigationService>();
             nav.Go<HomeView>();
