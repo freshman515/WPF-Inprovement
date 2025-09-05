@@ -12,7 +12,6 @@ public partial class ShellViewModel : ObservableObject {
     private readonly IRegionNavigationService _nav;
     [ObservableProperty] private string message = "hello";
     [ObservableProperty] private FrameworkElement currentView;
-
     public ShellViewModel(IRegionNavigationService regionNavigationService) {
         _nav = regionNavigationService;
         _nav.RegisterRegion("ShellRegion", v => CurrentView = v);

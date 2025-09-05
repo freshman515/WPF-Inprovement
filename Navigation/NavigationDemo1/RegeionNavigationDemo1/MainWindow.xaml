@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegeionNavigationDemo1"
         mc:Ignorable="d"
+        Background="DarkSlateBlue"
         WindowStartupLocation="CenterScreen"
         xmlns:vm="clr-namespace:RegeionNavigationDemo1.ViewModels"
         d:DataContext="{d:DesignInstance vm:MainViewModel}"
@@ -24,15 +25,16 @@
                   Background="#BC9AE1" Margin="10,0"/>
             <RadioButton Command="{Binding GoSettingsCommand}" Content="Settings" FontSize="16" VerticalAlignment="Center"
                   Background="#48B8C4" Margin="10,0"/>
-            <TextBox  MinWidth="100" Margin="10,2" Text="{Binding UserId,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
-            <TextBox  MinWidth="100" Margin="10,2" Text="{Binding Name,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox  MinWidth="50" Margin="10,2" Text="{Binding UserId,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox  MinWidth="50" Margin="10,2" Text="{Binding Name,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
             <RadioButton Command="{Binding GoHomeRegion2Command}" Content="Home" FontSize="16" VerticalAlignment="Center"
                          Background="#5689fC" Margin="10,0"/>
             <RadioButton Command="{Binding GoEditRegion2Command}" Content="Edit" FontSize="16" VerticalAlignment="Center"
                          Background="#BC9AE1" Margin="10,0"/>
             <RadioButton Command="{Binding GoSettingsRegion2Command}" Content="Settings" FontSize="16" VerticalAlignment="Center"
                          Background="#48B8C4" Margin="10,0"/>
-            <Button Content="弹窗" Command="{Binding ShowNewWindiowCommand }"/>
+            <Button Content="Shell" Command="{Binding ShowNewWindiowCommand }"/>
+            <Button Content="Dialog" Command="{Binding DeleteItemAsyncCommand}"  Margin="5,0,4,0"/>
         </StackPanel>
         <Border Grid.Row="1">
             <ContentControl Content="{Binding CurrentView}"/>

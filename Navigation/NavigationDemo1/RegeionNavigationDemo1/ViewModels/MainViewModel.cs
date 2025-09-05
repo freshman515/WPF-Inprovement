@@ -15,17 +15,19 @@ namespace RegeionNavigationDemo1.ViewModels {
         [ObservableProperty] private string _name;
         private int count = 0;
         private readonly IRegionNavigationService _nav;
+        private readonly IDialogSerivce _dialogService;
 
-        public MainViewModel(IRegionNavigationService navigationService) {
+        public MainViewModel(IRegionNavigationService navigationService,IDialogSerivce dialogService) {
             _nav = navigationService;
+            _dialogService = dialogService;
             _nav.RegisterRegion("MainRegion", v => CurrentView = v);
             _nav.RegisterRegion("OtherRegion", v => CurrentView2 = v);
         }
 
         [RelayCommand]
         private void ShowNewWindiow() {
-           var view =  ViewFactory.CreateWindowWithViewModel<ShellView>(App.Current.Services);
-           view.Show();
+            var view = App.Services.CreateView<ShellView>();
+            view.Show();
         }
         [RelayCommand]
         private void GoHome() {
@@ -51,6 +53,12 @@ namespace RegeionNavigationDemo1.ViewModels {
         [RelayCommand]
         private void GoSettingsRegion2() {
             _nav.Go<SettingsView, string>("OtherRegion", $"nihaoa{count+=100}");
+        }
+
+        [RelayCommand]
+        private async void DeleteItemAsync() {
+            var result = await _dialogService.ShowDialogAsync<ConfirmDialog, string, bool>("确定要删除吗");
+            _dialogService.ShowMessageBox(result?"删除成功":"删除失败");
         }
     }
 }

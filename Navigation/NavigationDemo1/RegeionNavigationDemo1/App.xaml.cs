@@ -2,6 +2,7 @@
 using System.Data;
 using System.Windows;
 using Microsoft.Extensions.DependencyInjection;
+using RegeionNavigationDemo1.Extension;
 using RegeionNavigationDemo1.Interfaces;
 using RegeionNavigationDemo1.Services;
 using RegeionNavigationDemo1.ViewModels;
@@ -14,22 +15,17 @@ namespace RegeionNavigationDemo1 {
     /// </summary>
     public partial class App : Application {
         public new static App Current => (App)Application.Current;
-        public IServiceProvider Services { get; private set; } = null!;
+        public static IServiceProvider Services => Current._services;
 
+        private IServiceProvider _services = null!;
         protected override void OnStartup(StartupEventArgs e) {
             base.OnStartup(e);
-
-            
             var services = new ServiceCollection();
-            services.AddSingleton<IRegionNavigationService, RegionNavigationService>();
-            services.AddSingleton<MainViewModel>();
-            services.AddSingleton<EditViewModel>();
-            services.AddSingleton<SettingsViewModel>();
-            services.AddSingleton<HomeViewModel>();
-            services.AddSingleton<ShellViewModel>();
-            Services = services.BuildServiceProvider();
-            var vm = new MainWindow() { DataContext = Services.GetRequiredService<MainViewModel>() };
-            vm.Show();
+            services.AddSerivces();
+            services.AddViewModels();
+            _services = services.BuildServiceProvider();
+            var main = _services.CreateView<MainWindow>();
+            main.Show();
         }
     }
 
