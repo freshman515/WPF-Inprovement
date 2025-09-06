@@ -13,6 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition  Height="40"/>
             <RowDefinition  Height="200"/>
+            <RowDefinition  Height="200"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="{Binding Message}"/>
@@ -27,5 +28,23 @@
             <ContentControl Content="{Binding CurrentView}"/>
         </Border>
 
+        <Border Grid.Row="2">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="启动Client" Height="30" Width="auto" Command="{Binding StartClientAsyncCommand }"/>
+                    <TextBlock Text="   发送的数据：" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding Message2,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="100" Height="40" VerticalAlignment="Center" FontSize="16"></TextBox>
+                    <Button Content="发送数据" Height="30" Width="auto" Command="{Binding SendMessageCommand }"/>
+                    <TextBlock Text="   收到的数据：" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding Message3}"     Width="auto" Height="40" VerticalAlignment="Center" FontSize="16"></TextBlock>
+                    <TextBlock Text="{Binding Message4}"     Width="auto" Height="40" VerticalAlignment="Center" FontSize="16"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="   发送数据给Server：" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding Message5,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="100" Height="40" VerticalAlignment="Center" FontSize="16"></TextBox>
+                    <Button Content="发送数据" Height="30" Width="auto" Command="{Binding SendMessageToServerCommand }"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>

@@ -1,4 +1,4 @@
-﻿<Window x:Class="RegeionNavigationDemo1.Views.ToastWindow"
+﻿<Window x:Class="Common.Core.UIComponents.AlertWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ToastWindow"

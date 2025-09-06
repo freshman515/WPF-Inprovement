@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationDemo1", "Navigati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegeionNavigationDemo1", "RegeionNavigationDemo1\RegeionNavigationDemo1.csproj", "{D3D7B87B-6508-41FA-8F79-5A61B7B83803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerPipe", "ServerPipe\ServerPipe.csproj", "{A193A113-AF59-4937-B394-907A478FC074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Core", "WpfLibrary1\Common.Core.csproj", "{075EFD0A-39C1-469F-A5BA-30A5275AF706}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D3D7B87B-6508-41FA-8F79-5A61B7B83803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D7B87B-6508-41FA-8F79-5A61B7B83803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D7B87B-6508-41FA-8F79-5A61B7B83803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A193A113-AF59-4937-B394-907A478FC074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A193A113-AF59-4937-B394-907A478FC074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A193A113-AF59-4937-B394-907A478FC074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A193A113-AF59-4937-B394-907A478FC074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075EFD0A-39C1-469F-A5BA-30A5275AF706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075EFD0A-39C1-469F-A5BA-30A5275AF706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075EFD0A-39C1-469F-A5BA-30A5275AF706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075EFD0A-39C1-469F-A5BA-30A5275AF706}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

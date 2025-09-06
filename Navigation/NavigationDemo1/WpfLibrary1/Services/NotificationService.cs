@@ -1,20 +1,16 @@
-﻿using RegeionNavigationDemo1.Enums;
-using RegeionNavigationDemo1.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Interop;
 using System.Windows.Media;
-using RegeionNavigationDemo1.Views;
+using System.Windows.Threading;
+using Common.Core.UIComponents;
+using Common.Core.Enums;
+using Common.Core.Interfaces;
 
-namespace RegeionNavigationDemo1.Services;
+namespace Common.Core.Services;
 
-public class ToastService : IToastService {
-    private static readonly List<ToastWindow> _activeToasts = [];
+public class NotificationService : INotificationService {
+    private static readonly List<AlertWindow> _activeToasts = [];
 
     [DllImport("user32.dll", SetLastError = true)]
     private static extern bool GetWindowRect(IntPtr hwnd, out RECT lpRect);
@@ -26,7 +22,7 @@ public class ToastService : IToastService {
     public void Show(string message, PromptStatus status = PromptStatus.Right, TimeSpan? duration = null, Window owner = null) {
         Application.Current.Dispatcher.Invoke(() =>
         {
-            var toast = new ToastWindow(message, status, duration);
+            var toast = new AlertWindow(message, status, duration);
             _activeToasts.Add(toast);
             toast.Closed += (s, e) => _activeToasts.Remove(toast);
 

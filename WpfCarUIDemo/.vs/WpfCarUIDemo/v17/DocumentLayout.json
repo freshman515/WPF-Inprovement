@@ -184,7 +184,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -197,10 +197,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             },
             {
               "$type": "Bookmark",
@@ -226,7 +222,7 @@
               "RelativeDocumentMoniker": "WpfCarUIDemo\\Views\\TestWindow.xaml.cs",
               "ToolTip": "D:\\pragma\\C# WPF\\WpfCarUIDemo\\WpfCarUIDemo\\Views\\TestWindow.xaml.cs",
               "RelativeToolTip": "WpfCarUIDemo\\Views\\TestWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAABg8tHoGyU0wBEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAABg8tHoGyU0wBUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:51:01.5Z",
               "EditorCaption": ""

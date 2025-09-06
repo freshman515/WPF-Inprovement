@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
-namespace RegeionNavigationDemo1.Interfaces;
+namespace Common.Core.Interfaces;
 
 public interface IDialogSerivce {
     Task<TResult?> ShowDialogAsync<TDialog, TParam, TResult>(TParam parameter)

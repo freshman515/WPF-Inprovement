@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using RegeionNavigationDemo1.Enums;
+﻿using System.Windows;
+using Common.Core.Enums;
 
-namespace RegeionNavigationDemo1.Interfaces;
+namespace Common.Core.Interfaces;
 
-public interface IToastService {
+public interface INotificationService {
     void Show(string message, PromptStatus status = PromptStatus.Right, TimeSpan? duration = null, Window owner = null);
     void ShowSuccess(string message, Window owner = null, TimeSpan? duration = null);
     void ShowError(string message, Window owner = null, TimeSpan? duration = null);

@@ -1,17 +1,17 @@
 ﻿using System.Windows;
 using System.Windows.Media.Animation;
-using RegeionNavigationDemo1.Enums;
+using Common.Core.Enums;
 
-namespace RegeionNavigationDemo1.Views {
+namespace Common.Core.UIComponents {
 	/// <summary>
 	/// ToastWindow.xaml 的交互逻辑
 	/// </summary>
-	public partial class ToastWindow : Window {
+	public partial class AlertWindow : Window {
 		public string Status { get; }
 		private readonly TimeSpan _duration;
 		public string Message { get; }
 
-		public ToastWindow(string message, PromptStatus status = PromptStatus.Right, TimeSpan? duration = null) {
+		public AlertWindow(string message, PromptStatus status = PromptStatus.Right, TimeSpan? duration = null) {
 			_duration = duration ?? TimeSpan.FromSeconds(1);
 			Status = status.ToString(); 
 			Message = string.IsNullOrEmpty(message) ? GetDefaultMessage(status) : message;

@@ -1,9 +1,8 @@
-﻿using RegeionNavigationDemo1.Extension;
-using RegeionNavigationDemo1.Interfaces;
-using System.Windows;
-using Accessibility;
+﻿using System.Windows;
+using Common.Core.Extension;
+using Common.Core.Interfaces;
 
-namespace RegeionNavigationDemo1.Services;
+namespace Common.Core.Services;
 
 public class DialogService : IDialogSerivce {
     private readonly IServiceProvider _sp;

@@ -1,4 +1,4 @@
-﻿namespace RegeionNavigationDemo1.Interfaces;
+﻿namespace Common.Core.Interfaces;
 public interface INavigationReceiver<TParam> {
     void OnNavigated(TParam parameter);
 }

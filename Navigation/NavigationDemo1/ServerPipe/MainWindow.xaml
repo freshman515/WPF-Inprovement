@@ -1,0 +1,24 @@
+﻿<Window x:Class="ServerPipe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ServerPipe"
+        xmlns:viewModels="clr-namespace:ServerPipe.ViewModels"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance viewModels:MainViewModel}"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="收到的消息:  "></TextBlock>
+            <ListBox ItemsSource="{Binding Messages}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBox Text="{Binding Message1,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" MinWidth="50" FontSize="16" VerticalContentAlignment="Center" />
+            <Button Margin="10,0" MinWidth="50" Content="广播" Height="30"        Command="{Binding BroadcastCommand}"/>
+            <Button Margin="10,0" MinWidth="50" Content="Server To S" Height="30"   Command="{Binding SendToClientSCommand}"/>
+            <Button Margin="10,0" MinWidth="50" Content="Server To M" Height="30"   Command="{Binding SendToClientMCommand}"/>
+            <Button Margin="10,0" MinWidth="50" Content="IsEnglish" Height="30" Command="{Binding SendToClientMultiLangNameCommand}"  />
+        </StackPanel>                                                                                     
+    </StackPanel>
+</Window>

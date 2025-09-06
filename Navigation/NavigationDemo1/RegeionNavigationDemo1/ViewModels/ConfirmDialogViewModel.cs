@@ -1,7 +1,7 @@
 ﻿using System.Windows;
+using Common.Core.Interfaces;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using RegeionNavigationDemo1.Interfaces;
 
 namespace RegeionNavigationDemo1.ViewModels;
 

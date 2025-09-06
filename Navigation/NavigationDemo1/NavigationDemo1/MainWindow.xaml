@@ -11,8 +11,9 @@
     <Grid>
          <Grid.RowDefinitions>
             <RowDefinition  Height="40"/>
-            <RowDefinition />
-        </Grid.RowDefinitions>
+            <RowDefinition  Height="200"/>
+            <RowDefinition  Height="200"/>
+         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
             <StackPanel.Resources>
             </StackPanel.Resources>
@@ -24,9 +25,23 @@
                          Background="#48B8C4" Margin="10,0"/>
             <TextBox  MinWidth="100" Margin="10,2" Text="{Binding UserId,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
             <TextBox  MinWidth="100" Margin="10,2" Text="{Binding Name,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+
         </StackPanel>
         <Border Grid.Row="1">
             <ContentControl Content="{Binding CurrentView}"/>
+        </Border>
+        <Border Grid.Row="2">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="启动Client" Height="30" Width="auto" Command="{Binding StartClientAsyncCommand }"/>
+                <TextBlock Text="   发送的数据：" VerticalAlignment="Center"/>
+                <TextBox Text="{Binding Message2,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="100" Height="40" VerticalAlignment="Center" FontSize="16"></TextBox>
+                <Button Content="发送数据" Height="30" Width="auto" Command="{Binding SendMessageCommand }"/>
+                <TextBlock Text="   收到的数据：" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding Message3}" Width="auto" Height="40" VerticalAlignment="Center" FontSize="16"></TextBlock>
+
+
+
+</StackPanel>
         </Border>
     </Grid>
 </Window>

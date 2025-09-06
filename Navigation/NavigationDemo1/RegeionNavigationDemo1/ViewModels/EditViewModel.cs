@@ -1,5 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using RegeionNavigationDemo1.Interfaces;
+﻿using Common.Core.Interfaces;
+using CommunityToolkit.Mvvm.ComponentModel;
 using RegeionNavigationDemo1.Models;
 
 namespace RegeionNavigationDemo1.ViewModels {

@@ -1,16 +1,17 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CommunityToolkit.Mvvm.Messaging;
+using Microsoft.Extensions.DependencyInjection;
 using System.ComponentModel.Design;
 using System.Reflection;
 using System.Windows;
 
-namespace RegeionNavigationDemo1.Extension;
+namespace Common.Core.Extension;
 
 public static class ServiceProviderExtensions {
     public static TView CreateView<TView>(this IServiceProvider sp) where TView : FrameworkElement,new() {
         var view = new TView();
         var vmType = ResolveViewModelType(typeof(TView));
         if (vmType != null) {
-            var vm = sp.GetService(vmType)?? Activator.CreateInstance(vmType);
+            var vm = sp.GetService(vmType)?? ActivatorUtilities.CreateInstance(sp, vmType);
             view.DataContext = vm;
         }
         return view;
@@ -65,7 +66,14 @@ public static class ServiceProviderExtensions {
         ServiceLifetime lifetime = ServiceLifetime.Transient) {
         return services.AddViewModelsFromAssembly(Assembly.GetExecutingAssembly(), lifetime);
     }
-
+    /// <summary>
+    /// 批量注册指定库（比如 RegeionNavigationDemo1 或其它 UI 模块）的 ViewModel
+    /// </summary>
+    public static IServiceCollection AddViewModelsFrom<T>(
+        this IServiceCollection services,
+        ServiceLifetime lifetime = ServiceLifetime.Transient) {
+        return services.AddViewModelsFromAssembly(typeof(T).Assembly, lifetime);
+    }
     /// <summary>
     /// 批量注册接口和实现：
     /// 如果有接口 → 注册接口和实现
@@ -87,6 +95,7 @@ public static class ServiceProviderExtensions {
                 services.Add(new ServiceDescriptor(implType, implType, lifetime));
             }
         }
+        services.AddSingleton<IMessenger>(sp => WeakReferenceMessenger.Default);
         return services;
     }
 
@@ -95,4 +104,15 @@ public static class ServiceProviderExtensions {
         ServiceLifetime lifetime = ServiceLifetime.Singleton) {
         return services.AddServicesFromAssembly(Assembly.GetExecutingAssembly(), lifetime);
     }
+    public static IServiceCollection AddSerivcesFrom<T>(
+        this IServiceCollection services,
+        ServiceLifetime lifetime = ServiceLifetime.Singleton) {
+        return services.AddServicesFromAssembly(typeof(T).Assembly, lifetime);
+    }
+    public static IServiceCollection AddCommonCoreServices(
+        this IServiceCollection services,
+        ServiceLifetime lifetime = ServiceLifetime.Singleton) {
+        return services.AddServicesFromAssembly(typeof(Interfaces.IMessageServer).Assembly, lifetime);
+    }
+
 }

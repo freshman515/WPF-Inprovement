@@ -9,7 +9,7 @@
         WindowStartupLocation="CenterScreen"
         xmlns:vm="clr-namespace:RegeionNavigationDemo1.ViewModels"
         d:DataContext="{d:DesignInstance vm:MainViewModel}"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition  Height="40"/>
@@ -35,6 +35,9 @@
                          Background="#48B8C4" Margin="10,0"/>
             <Button Content="Shell" Command="{Binding ShowNewWindiowCommand }"/>
             <Button Content="Dialog" Command="{Binding DeleteItemAsyncCommand}"  Margin="5,0,4,0"/>
+            <Button Content="保存配置" Command="{Binding SaveChannelsCommand}"  Margin="5,0,4,0"/>
+            <Button Content="到处配置" Command="{Binding LoadChannelsCommand}"  Margin="5,0,4,0"/>
+            <Button Content="发送消息ToHome" Command="{Binding SendMessageToHomeCommand}"  Margin="5,0,4,0"/>
         </StackPanel>
         <Border Grid.Row="1">
             <ContentControl Content="{Binding CurrentView}"/>

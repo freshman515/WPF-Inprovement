@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using Common.Core.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using NavigationDemo1.Interfaces;
 using NavigationDemo1.Service;
@@ -18,7 +19,8 @@ namespace NavigationDemo1.Extensions {
             });
             services.AddSingleton<TShellViewModel>(sp => {
                 var nav = sp.GetRequiredService<INavigationService>();
-                shellVm = ActivatorUtilities.CreateInstance<TShellViewModel>(sp, nav);
+                var cli = sp.GetRequiredService<IMessageClient>();
+                shellVm = ActivatorUtilities.CreateInstance<TShellViewModel>(sp, nav,cli);
                 return shellVm;
             });
 
